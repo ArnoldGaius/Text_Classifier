@@ -45,6 +45,8 @@ Sample Usage
 >>> Y_predict = tc.predict(X_test)
 >>> tc.confusion_matrix(y_test, Y_predict)
 
+```
+```python
 >>> Confusion Matrix :
                military  baby   car  game  food  sports  finance  discovery  regimen  travel  fashion  history  society  story  tech  world  entertainment  essay
 military           2831     5     3    16     9       4        8         10        0      15        8       24        9      3     6     42              6      1
@@ -65,7 +67,9 @@ tech                 16     8    19    21     6       3       52         13     
 world                52    33    12     8     9      16       33         24        2      35       27       37       50      8    20   2583             30      4
 entertainment         5    14     3    28     6      13        4          3        1       9      120       29       17      3    12     10           2708      8
 essay                 7    23     5     3    12       1        8          6        4      15       22       11        7      2     5      2             11   1010
+```
 
+```python
     #get sub_result and Figure
 >>> tc.plot_display(y_test, Y_predict)
 >>> Plot display...
