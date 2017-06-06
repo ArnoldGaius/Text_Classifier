@@ -1,6 +1,6 @@
 基于sklearn的文本分类器 Text classifier based on sklearn
 =======================================================
-Short text Classifier based on Numpy,scikit-learn,Pandas,Matplotlib
+Short text Classifier based on Numpy,Scikit-learn,Pandas,Matplotlib
 
 Train Data Format
 ----------------------
@@ -97,7 +97,7 @@ Performance
 ----------------------
 - Train set: 156k news headline with 18 labels
 - Test set: 36k news headline with 18 labels
-- Compare with svm , naive-bayes , SGD(loss = 'perceptron') of [scikit-learn](https://github.com/scikit-learn/scikit-learn)
+- Compare with svm , naive-bayes , SGD(loss = 'perceptron') of [Scikit-learn](https://github.com/scikit-learn/scikit-learn)
 
 |         Classifier       | Accuracy  |  Time cost(s)  |
 |:------------------------:|:---------:|:--------------:|
