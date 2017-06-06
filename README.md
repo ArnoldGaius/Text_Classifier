@@ -18,7 +18,7 @@ Sample Usage
     # cerat classifier container
 >>> tc = TextClassifier.classifier_container()
 
-    # load data.sep Default = ',' you can change it to '\t',etc.
+    # load data.sep Default = ',' you can change it to '\t',etc.  '../data/Train_data.txt' is data path 
 >>> tc.load_Data('../data/Train_data.txt',sep=',')
 
     # train the model
