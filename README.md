@@ -40,13 +40,12 @@ Sample Usage
 >>> tc.Accuracy(X_train, y_train)
 >>> Accuracy:
     0.917504310503
+```
 
+```python
     #get Confusion Matrix
 >>> Y_predict = tc.predict(X_test)
 >>> tc.confusion_matrix(y_test, Y_predict)
-
-```
-```python
 >>> Confusion Matrix :
                military  baby   car  game  food  sports  finance  discovery  regimen  travel  fashion  history  society  story  tech  world  entertainment  essay
 military           2831     5     3    16     9       4        8         10        0      15        8       24        9      3     6     42              6      1
