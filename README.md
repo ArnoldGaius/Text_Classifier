@@ -101,8 +101,8 @@ Performance
 
 |         Classifier       | Accuracy  |  Time cost(s)  |
 |:------------------------:|:---------:|:--------------:|
-|     scikit-learn(nb)     |   72.7%   |     18         |
 |     scikit-learn(svm)    |   71.6%   |     241        |
+|     scikit-learn(nb)     |   72.7%   |     12         |
 |     scikit-learn(SGD)    |   72.4%   |     197        |
 |     **TextClassifier**   | **76.8%** |     **8**      |
 
