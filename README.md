@@ -93,6 +93,18 @@ travel                2988            3056           68               68
 world                 2983            2888          -95               95
 ```
 
+Performance
+----------------------
+- Train set: 156k news headline with 18 labels
+- Test set: 36k news headline with 18 labels
+- Compare with svm , naive-bayes , SGD(loss = 'perceptron') of [scikit-learn](https://github.com/scikit-learn/scikit-learn)
+|         Classifier       | Accuracy  |  Time cost(s)  |
+|:------------------------:|:---------:|:--------------:|
+|     scikit-learn(nb)     |   72.7%   |     18         |
+|     scikit-learn(svm)    |   71.6%   |     241        |
+|     scikit-learn(SGD)    |   72.4%   |     197        |
+|     **TextClassifier**   | **76.8%** |    **8 **      |
+
 Installation
 ----------------------
     $ pip install TextClassifier
