@@ -1,4 +1,4 @@
-基于sklearn的文本分类器 Text classifier based on sklearn
+文本分类器 Text classifier
 =======================================================
 Text Classifier based on Numpy,Scikit-learn,Pandas,Matplotlib
 
