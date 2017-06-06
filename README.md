@@ -93,6 +93,8 @@ travel                2988            3056           68               68
 world                 2983            2888          -95               95
 ```
 
+![image](image_url)
+
 Performance
 ----------------------
 - Train set: 156k news headline with 18 labels
