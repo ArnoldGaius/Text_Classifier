@@ -93,7 +93,7 @@ travel                2988            3056           68               68
 world                 2983            2888          -95               95
 ```
 
-![image](image_url)
+![image](https://github.com/ArnoldGaius/Text_Classifier/blob/master/image/Figure.png)
 
 Performance
 ----------------------
