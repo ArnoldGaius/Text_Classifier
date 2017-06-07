@@ -31,11 +31,11 @@ Sample Usage
 
     # prediction. Input list or text-String
 >>> print tc.predict('Faker is the first League of Legends player to earn over $1 million in prize money')
->>> [u'game']
+    [u'game']
 >>> print tc.predict(['Faker is the first League of Legends player to earn over $1 million in prize money',
                     '18-year-old youth killed 88-year-old veteran',
                     'Take you into the real North Korea'])
->>> [u'game',u'society',u'world']
+    [u'game',u'society',u'world']
 
     #get X_train, X_test, y_train, y_test
 >>> from sklearn import cross_validation
@@ -43,7 +43,7 @@ Sample Usage
 
     #get TrainData Accuracy
 >>> tc.Accuracy(X_train, y_train)
->>> Accuracy:
+    Accuracy:
     0.917504310503
 ```
 
@@ -51,7 +51,7 @@ Sample Usage
     #get Confusion Matrix
 >>> Y_predict = tc.predict(X_test)
 >>> tc.confusion_matrix(y_test, Y_predict)
->>> Confusion Matrix :
+    Confusion Matrix :
                military  baby   car  game  food  sports  finance  discovery  regimen  travel  fashion  history  society  story  tech  world  entertainment  essay
 military           2831     5     3    16     9       4        8         10        0      15        8       24        9      3     6     42              6      1
 baby                  0  2932     3     3    26       0        1          0       10       7       10        3       16      4     3      7             20      4
@@ -76,7 +76,7 @@ essay                 7    23     5     3    12       1        8          6     
 ```python
     #get sub_result and Figure
 >>> tc.plot_display(y_test, Y_predict)
->>> Plot display...
+    Plot display...
                Test count:  Predict count:  Sub Result:  Sub_Abs Result:
 baby                  3049            3295          246              246
 car                   2973            2949          -24               24
