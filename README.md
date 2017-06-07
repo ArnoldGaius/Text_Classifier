@@ -1,3 +1,6 @@
+[![PyPI version](https://img.shields.io/badge/python-2.7-blue.svg)](https://badge.fury.io/py/TextClassifier)
+[![PyPI version](https://badge.fury.io/py/TextClassifier.svg)](https://badge.fury.io/py/TextClassifier)
+
 文本分类器 Text classifier
 =======================================================
 Text Classifier based on Numpy,Scikit-learn,Pandas,Matplotlib
